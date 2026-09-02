@@ -16,7 +16,7 @@ export default function NavbarComp() {
     <Navbar className="top-nav" expand="sm">
       <Container className="page-container py-0" style={{ maxWidth: 560 }}>
         <Navbar.Brand as={Link} to="/">
-          Circle
+          Our Circle
         </Navbar.Brand>
         <Nav className="ms-auto d-flex flex-row align-items-center gap-2">
           {user ? (
